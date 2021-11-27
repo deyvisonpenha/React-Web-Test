@@ -7,12 +7,12 @@ type StylesProps = {
 function handleType(textType: string){
     if(textType === 'title'){
         return css`
-        font-size: 70px;
+        font-size: 5rem;
       `
     }
     
     return css`
-    font-size: 40px;
+    font-size: 2.5rem;
   `;
 }
 

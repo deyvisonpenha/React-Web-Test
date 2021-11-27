@@ -1,5 +1,4 @@
 export type TextProps = {
-    article: string,
+    children: any,
     textType: string,
-    isBold?: boolean,
 }

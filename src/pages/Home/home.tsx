@@ -16,9 +16,9 @@ export const Home = () => {
     return (
 			<Container>
 				<Content>
-					<Text article={homeText.title} textType="title"/>
-					<Text article={homeText.content} textType="normal"/>
-					<Text article={homeText.bottom} textType="normal"/>
+					<Text textType="title">{homeText.title}</Text>
+					<Text textType="normal">{homeText.content}</Text>
+					<Text textType="normal">{homeText.bottom}</Text>
 					<Button onClick={handleRedirect} >BEGIN</Button>
 				</Content>
 			</Container>
