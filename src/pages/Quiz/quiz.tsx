@@ -22,7 +22,7 @@ export const Quiz = () => {
     const [counterQuestion, setCounterQuestion] = useState(0);
     const [isLoaded, setIsLoaded] = useState(false);
 
-    let navigate = useNavigate();
+    const navigate = useNavigate();
 
     useEffect(()=> {
         async function getQuestions(){

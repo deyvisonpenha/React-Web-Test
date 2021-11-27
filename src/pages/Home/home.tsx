@@ -7,7 +7,7 @@ import { homeText } from '../../constants/home';
 import { useNavigate } from 'react-router-dom';
 
 export const Home = () => {
-	let navigate = useNavigate();
+	const navigate = useNavigate();
 
 	function handleRedirect(){
 		navigate("/quiz");

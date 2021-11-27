@@ -17,7 +17,7 @@ import {
 
 export const Score = () => {
     const location = useLocation();
-    let navigate = useNavigate();
+    const navigate = useNavigate();
 
     const {quiz, answers} = location.state as RouteProps;
 
